@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1048084879362",
+    "firebase_url": "https://shoppingly-7be92-default-rtdb.firebaseio.com",
+    "project_id": "shoppingly-7be92",
+    "storage_bucket": "shoppingly-7be92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048084879362:android:38fc779c52a82ad9252f1b",
+        "android_client_info": {
+          "package_name": "com.app.shoppingly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048084879362-1s74ukq72p50uabcsanmhpr08vcmaf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJr2rRLCxOVX-5u6uxgvLsm6xGcbEeTow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048084879362-1s74ukq72p50uabcsanmhpr08vcmaf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

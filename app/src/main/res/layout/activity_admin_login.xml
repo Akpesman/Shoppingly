@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginTop="50dp"
+                app:civ_border="true"
+                app:civ_border_color="#fff"
+                app:civ_border_width="0.7dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/holder"
+                android:id="@+id/img"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin Sign In"
+                android:layout_below="@+id/img"
+                android:id="@+id/tv1"
+                android:layout_centerHorizontal="true"
+                android:textSize="22sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="5dp"/>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/design"
+                android:layout_below="@id/tv1"
+                android:textColorHint="@color/colorPrimary">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtKey"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#000"
+                    android:inputType="textEmailAddress"
+                    android:hint="Login Key"
+                    android:backgroundTint="#fff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/key"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="Sign In"
+                android:textColor="#fff"
+                android:ems="14"
+                android:id="@+id/btnSignIn"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
